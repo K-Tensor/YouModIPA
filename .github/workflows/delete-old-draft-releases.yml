@@ -14,7 +14,7 @@ permissions:
 jobs:
   build:
     name: Delete old draft releases
-    runs-on: ubuntu-latest
+    runs-on: macos-15-intel
     steps:
       - name: Delete old draft releases
         uses: hugo19941994/delete-draft-releases@v3.0.0
