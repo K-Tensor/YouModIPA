@@ -179,7 +179,7 @@ jobs:
 
   package:
     name: Build YouMod IPA
-    runs-on: macos-latest
+    runs-on: macos-15
     needs: build-tweaks
     permissions:
       contents: write
