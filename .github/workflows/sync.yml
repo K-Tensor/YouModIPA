@@ -7,7 +7,7 @@ on:
 jobs:
   merge:
     name: Merge Upstream
-    runs-on: ubuntu-latest
+    runs-on: macos-15-intel
     
     permissions:
       contents: write
